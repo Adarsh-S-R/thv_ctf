@@ -1,0 +1,1370 @@
+timestamp,agent.name,rule.description,data.win.system.message,data.win.eventdata.targetFilename
+"Jul 16, 2024 @ 18:24:23.487","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 1: Process creation.",""Process Create:
+RuleName: technique_id=T1204,technique_name=User Execution
+UtcTime: 2024-07-16 12:44:18.965
+ProcessGuid: {e2220e9d-6b22-6696-4b02-000000002600}
+ProcessId: 5668
+Image: C:\Windows\System32\notepad.exe
+FileVersion: 10.0.19041.4355 (WinBuild.160101.0800)
+Description: Notepad
+Product: Microsoft® Windows® Operating System
+Company: Microsoft Corporation
+OriginalFileName: NOTEPAD.EXE
+CommandLine: "C:\Windows\system32\NOTEPAD.EXE" C:\Users\compromised-windows\Desktop\ransomware-simulator-note.txt
+CurrentDirectory: C:\Users\compromised-windows\Desktop\
+User: WINDOWS-11-VULN\compromised-windows
+LogonGuid: {e2220e9d-6751-6696-8367-050000000000}
+LogonId: 0x56783
+TerminalSessionId: 1
+IntegrityLevel: High
+Hashes: SHA1=BD6B9B8BF4B0911846A089C620CE3B4A43EE9674,MD5=BD33AA772F4751C5A79F94636088774E,SHA256=C286747D319818C1205FD487040840353C5F4542FAFFDABAE9131481BDFEB92A,IMPHASH=09ED737A03DB7295BF734A9953F6EB5E
+ParentProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ParentProcessId: 4424
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\Windows\Explorer.EXE
+ParentUser: WINDOWS-11-VULN\compromised-windows"",
+"Jul 16, 2024 @ 18:19:44.229","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:40:32.360
+ProcessGuid: {e2220e9d-6a3f-6696-2502-000000002600}
+ProcessId: 5996
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\quickbuck.exe:Zone.Identifier
+CreationUtcTime: 2024-07-16 12:40:29.727
+Hash: SHA1=33FC118061A2B5F3EBC054E6EAC9304FFB77E83E,MD5=AC1CE1C48F53309E6B365689A03C50FA,SHA256=AEB7BB47D4E151E66B7433507A542FF25D5E14D4EAF339B20E8A91967ABB5D0C,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://github.com/NextronSystems/ransomware-simulator/releases  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\quickbuck.exe:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.990","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.268
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.956","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.268
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=4437B8922BBF5397DD2E6BDBB6306A3089221FC7,MD5=C4629185EEE21B8132764C98622E3FEE,SHA256=193CE235F8A4D8F3366A4D3F084A6E28B6565B1E0233CB391B0712234A286A2F,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go"
+"Jul 16, 2024 @ 18:19:24.923","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.268
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.891","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.268
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.864","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.268
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=4437B8922BBF5397DD2E6BDBB6306A3089221FC7,MD5=C4629185EEE21B8132764C98622E3FEE,SHA256=193CE235F8A4D8F3366A4D3F084A6E28B6565B1E0233CB391B0712234A286A2F,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go"
+"Jul 16, 2024 @ 18:19:24.803","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro\macro.go
+CreationUtcTime: 2024-07-16 12:39:55.244
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro\\macro.go"
+"Jul 16, 2024 @ 18:19:24.776","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\simulatemacro
+CreationUtcTime: 2024-07-16 12:39:55.244
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\simulatemacro"
+"Jul 16, 2024 @ 18:19:24.776","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.740","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=4F48A8DDC15A24FDDAE2A99365AB661F31270D60,MD5=1ACFCC4F39472B175CDE151D8EE1FDDA,SHA256=9F761B4872318DA743A8E1B35A3462C7F1F3BCC8C448B3D39CB6D3B1D19EF739,IMPHASH=00000000000000000000000000000000
+Contents: package shadowcopy  import ( 	"errors" 	"fmt" 	"log" 	"os/exec" 	"time" )  func Delete() error { 	log.Println("Executing command 'vssadmin delete shadows /for=norealvolume /all /quiet'") 	err := exec.Command("vssadmin", "delete", "shadows", "/for=norealvolume", "/all", "/quiet").Run() 	// it takes some time to delete the shadowcopies 	time.Sleep(5 * time.Second) 	var exitErr *exec.ExitError 	if errors.As(err, &exitErr) { 		if exitErr.ExitCode() != 2 { 			return fmt.Errorf("command returned unusual status code %d - might have been blocked", exitErr.ExitCode()) 		} 	} else { 		return fmt.Errorf("could not run command: %w", err) 	} 	return nil } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go"
+"Jul 16, 2024 @ 18:19:24.708","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.678","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.645","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.244
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=4F48A8DDC15A24FDDAE2A99365AB661F31270D60,MD5=1ACFCC4F39472B175CDE151D8EE1FDDA,SHA256=9F761B4872318DA743A8E1B35A3462C7F1F3BCC8C448B3D39CB6D3B1D19EF739,IMPHASH=00000000000000000000000000000000
+Contents: package shadowcopy  import ( 	"errors" 	"fmt" 	"log" 	"os/exec" 	"time" )  func Delete() error { 	log.Println("Executing command 'vssadmin delete shadows /for=norealvolume /all /quiet'") 	err := exec.Command("vssadmin", "delete", "shadows", "/for=norealvolume", "/all", "/quiet").Run() 	// it takes some time to delete the shadowcopies 	time.Sleep(5 * time.Second) 	var exitErr *exec.ExitError 	if errors.As(err, &exitErr) { 		if exitErr.ExitCode() != 2 { 			return fmt.Errorf("command returned unusual status code %d - might have been blocked", exitErr.ExitCode()) 		} 	} else { 		return fmt.Errorf("could not run command: %w", err) 	} 	return nil } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go"
+"Jul 16, 2024 @ 18:19:24.582","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.221
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy\shadowcopy.go
+CreationUtcTime: 2024-07-16 12:39:55.221
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy\\shadowcopy.go"
+"Jul 16, 2024 @ 18:19:24.572","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.221
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\shadowcopy
+CreationUtcTime: 2024-07-16 12:39:55.221
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\shadowcopy"
+"Jul 16, 2024 @ 18:19:24.529","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.221
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.514","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.198
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.514","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.198
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6B3F5B9902856F7A72EFAD1A781ECC4DEBCAEC95,MD5=79CC7032C1E40B959F09BDAB991DADDE,SHA256=F292053578C0C2E0FEEFAE5E6D64091C74D3E6DE693801FEED19FA2F8614321D,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt"
+"Jul 16, 2024 @ 18:19:24.481","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.198
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:24.462","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.198
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6B3F5B9902856F7A72EFAD1A781ECC4DEBCAEC95,MD5=79CC7032C1E40B959F09BDAB991DADDE,SHA256=F292053578C0C2E0FEEFAE5E6D64091C74D3E6DE693801FEED19FA2F8614321D,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt"
+"Jul 16, 2024 @ 18:19:23.769","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.198
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\note.txt
+CreationUtcTime: 2024-07-16 12:39:55.198
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\note.txt"
+"Jul 16, 2024 @ 18:19:23.737","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.703","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E2484EA34E6DE745823883309D86659D6B154945,MD5=AEA543425406FC365EAEAFF9AF637824,SHA256=35D865211DD6A27B42D0E7056429FA22DF5AF561C6123776119029993D163C86,IMPHASH=00000000000000000000000000000000
+Contents: package note  import ( 	_ "embed" 	"log" 	"os" )  //go:embed note.txt var note string  func Write(location string) error { 	log.Printf("Dropping ransomware note to %s...", location) 	file, err := os.Create(location) 	if err != nil { 		return err 	} 	defer file.Close() 	file.WriteString(note) 	return nil }
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go"
+"Jul 16, 2024 @ 18:19:23.677","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.643","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.613","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E2484EA34E6DE745823883309D86659D6B154945,MD5=AEA543425406FC365EAEAFF9AF637824,SHA256=35D865211DD6A27B42D0E7056429FA22DF5AF561C6123776119029993D163C86,IMPHASH=00000000000000000000000000000000
+Contents: package note  import ( 	_ "embed" 	"log" 	"os" )  //go:embed note.txt var note string  func Write(location string) error { 	log.Printf("Dropping ransomware note to %s...", location) 	file, err := os.Create(location) 	if err != nil { 		return err 	} 	defer file.Close() 	file.WriteString(note) 	return nil }
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go"
+"Jul 16, 2024 @ 18:19:23.580","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.174
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note\dropnote.go
+CreationUtcTime: 2024-07-16 12:39:55.174
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note\\dropnote.go"
+"Jul 16, 2024 @ 18:19:23.552","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\note
+CreationUtcTime: 2024-07-16 12:39:55.151
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\note"
+"Jul 16, 2024 @ 18:19:23.519","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.492","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=30F03CBE6C7E0C8EECADD684CCB21186769918A1,MD5=36D8831C88D2735CF8161D2B8F69DF2E,SHA256=72E9AFEA188F793E82863713902B84E9B04AD8683A29ED8428749A27A3981A44,IMPHASH=00000000000000000000000000000000
+Contents: package encrypt  import ( 	_ "embed" 	"fmt" 	"log" 	"os" 	"path/filepath" )  //go:embed TestDocument.docx var document []byte  const documentCount = 10000  func StageFiles(directory string) error { 	log.Printf("Clearing target folder %s...", directory) 	if err := os.RemoveAll(directory); err != nil { 		return fmt.Errorf("could not delete folder: %w", err) 	} 	if err := os.MkdirAll(directory, 0755); err != nil { 		return fmt.Errorf("could not create folder: %w", err) 	} 	log.Printf("Writing %d documents to target folder %s...", documentCount, directory) 	for i := 0; i <= documentCount; i++ { 		if err := os.WriteFile(filepath.Join(directory, fmt.Sprintf("document%d.docx", i)), document, 0644); err != nil { 			return fmt.Errorf("could not write file: %w", err) 		} 	} 	return nil } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go"
+"Jul 16, 2024 @ 18:19:23.453","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.426","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.412","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.151
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=30F03CBE6C7E0C8EECADD684CCB21186769918A1,MD5=36D8831C88D2735CF8161D2B8F69DF2E,SHA256=72E9AFEA188F793E82863713902B84E9B04AD8683A29ED8428749A27A3981A44,IMPHASH=00000000000000000000000000000000
+Contents: package encrypt  import ( 	_ "embed" 	"fmt" 	"log" 	"os" 	"path/filepath" )  //go:embed TestDocument.docx var document []byte  const documentCount = 10000  func StageFiles(directory string) error { 	log.Printf("Clearing target folder %s...", directory) 	if err := os.RemoveAll(directory); err != nil { 		return fmt.Errorf("could not delete folder: %w", err) 	} 	if err := os.MkdirAll(directory, 0755); err != nil { 		return fmt.Errorf("could not create folder: %w", err) 	} 	log.Printf("Writing %d documents to target folder %s...", documentCount, directory) 	for i := 0; i <= documentCount; i++ { 		if err := os.WriteFile(filepath.Join(directory, fmt.Sprintf("document%d.docx", i)), document, 0644); err != nil { 			return fmt.Errorf("could not write file: %w", err) 		} 	} 	return nil } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go"
+"Jul 16, 2024 @ 18:19:23.347","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\stagefiles.go
+CreationUtcTime: 2024-07-16 12:39:55.127
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\stagefiles.go"
+"Jul 16, 2024 @ 18:19:23.204","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.151","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=C85158D2E7A1A0878B2CE9025535B6D8A7BD3F7C,MD5=AF0F87B540D677C75028F4CD86435E44,SHA256=69790B438ACDDD45339A634D4CD77023FEF0247C51194429249DF40C7CCE9FF2,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go"
+"Jul 16, 2024 @ 18:19:23.151","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.121","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.120","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.127
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=C85158D2E7A1A0878B2CE9025535B6D8A7BD3F7C,MD5=AF0F87B540D677C75028F4CD86435E44,SHA256=69790B438ACDDD45339A634D4CD77023FEF0247C51194429249DF40C7CCE9FF2,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go"
+"Jul 16, 2024 @ 18:19:23.048","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\encryptfiles.go
+CreationUtcTime: 2024-07-16 12:39:55.104
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\encryptfiles.go"
+"Jul 16, 2024 @ 18:19:23.034","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:23.004","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=70F6A64A82F3CFE82464B435A6E533AB515C3C3A,MD5=9A8416C7715C64836383BF0440E0F589,SHA256=F517F7F467ECEC9ED34B3D6460F9726A8C89F918EA9CFA7416CCC8A47E4C5689,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx"
+"Jul 16, 2024 @ 18:19:22.981","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.940","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.918","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.104
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=70F6A64A82F3CFE82464B435A6E533AB515C3C3A,MD5=9A8416C7715C64836383BF0440E0F589,SHA256=F517F7F467ECEC9ED34B3D6460F9726A8C89F918EA9CFA7416CCC8A47E4C5689,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx"
+"Jul 16, 2024 @ 18:19:22.872","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.080
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt\TestDocument.docx
+CreationUtcTime: 2024-07-16 12:39:55.080
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt\\TestDocument.docx"
+"Jul 16, 2024 @ 18:19:22.857","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.080
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib\encrypt
+CreationUtcTime: 2024-07-16 12:39:55.080
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib\\encrypt"
+"Jul 16, 2024 @ 18:19:22.823","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.080
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\lib
+CreationUtcTime: 2024-07-16 12:39:55.080
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\lib"
+"Jul 16, 2024 @ 18:19:22.811","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.057
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.792","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.057
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=EB71FBB91108D3F4CD4FD12318A3956CDD589324,MD5=F90ED456D05031D417A3EAF1736AA808,SHA256=460DFA509D399B25FD9462960A59CFCD1D7CA80B2108BD906A7B9BCFFF1751C5,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png"
+"Jul 16, 2024 @ 18:19:22.777","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.057
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.756","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.057
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.729","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.057
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=EB71FBB91108D3F4CD4FD12318A3956CDD589324,MD5=F90ED456D05031D417A3EAF1736AA808,SHA256=460DFA509D399B25FD9462960A59CFCD1D7CA80B2108BD906A7B9BCFFF1751C5,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png"
+"Jul 16, 2024 @ 18:19:22.674","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images\quickbuck_demo.png
+CreationUtcTime: 2024-07-16 12:39:55.033
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images\\quickbuck_demo.png"
+"Jul 16, 2024 @ 18:19:22.653","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\images
+CreationUtcTime: 2024-07-16 12:39:55.033
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\images"
+"Jul 16, 2024 @ 18:19:22.625","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.604","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6CD902E06C1FCD6A4DE0F0E0230A7F9228AC5B40,MD5=49AF6A9EB4C926FBEC298D59C40ED0CD,SHA256=F50F86D442947F0224C5852D32E66B045DCA0AA03ABA1775A1379C20B1DA1215,IMPHASH=00000000000000000000000000000000
+Contents: package main  var shell = "cmd.exe"  var shellParam = "/c"
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go"
+"Jul 16, 2024 @ 18:19:22.597","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.576","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.558","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.033
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6CD902E06C1FCD6A4DE0F0E0230A7F9228AC5B40,MD5=49AF6A9EB4C926FBEC298D59C40ED0CD,SHA256=F50F86D442947F0224C5852D32E66B045DCA0AA03ABA1775A1379C20B1DA1215,IMPHASH=00000000000000000000000000000000
+Contents: package main  var shell = "cmd.exe"  var shellParam = "/c"
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go"
+"Jul 16, 2024 @ 18:19:22.526","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_windows.go
+CreationUtcTime: 2024-07-16 12:39:55.010
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_windows.go"
+"Jul 16, 2024 @ 18:19:22.511","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.495","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E3B99E1C40B9FC8F0EDBFD1A778FA43D5DFBFA4B,MD5=FE8A78B1DB37F728493D05CFD524F624,SHA256=3B099B1C617737F8FEB9D5FB5A595E4EDE77BEFA2294DDC019A88E0189FB85D3,IMPHASH=00000000000000000000000000000000
+Contents: //+build !windows  package main  var shell = "sh"  var shellParam = "-c"
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go"
+"Jul 16, 2024 @ 18:19:22.480","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.467","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.433","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:55.010
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E3B99E1C40B9FC8F0EDBFD1A778FA43D5DFBFA4B,MD5=FE8A78B1DB37F728493D05CFD524F624,SHA256=3B099B1C617737F8FEB9D5FB5A595E4EDE77BEFA2294DDC019A88E0189FB85D3,IMPHASH=00000000000000000000000000000000
+Contents: //+build !windows  package main  var shell = "sh"  var shellParam = "-c"
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go"
+"Jul 16, 2024 @ 18:19:22.413","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage_unix.go
+CreationUtcTime: 2024-07-16 12:39:54.987
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage_unix.go"
+"Jul 16, 2024 @ 18:19:22.386","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.365","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=10CD004B606D0C0F5903D86D8A2685D0FA0E583F,MD5=FDFCD4FCC7BCE6301300420BE9C611A3,SHA256=59AC771DCCC04D2A369267EC86CE12E71C781B6DF2FFE3394C5B3F7ADB7CB452,IMPHASH=00000000000000000000000000000000
+Contents: package main  import ( 	"errors" 	"log" 	"os" 	"os/exec" 	"strings" 	"time"  	"github.com/spf13/cobra" )  func init() { 	stageCmd := &cobra.Command{ 		Use:                "stage", 		Short:              "Run ransomware simulator via cmd /c", 		Run:                stage, 		DisableFlagParsing: true, 		Hidden:             true, 	} 	rootCmd.AddCommand(stageCmd) }  func stage(cmd *cobra.Command, args []string) { 	log.Printf("Executing command via shell: %s", strings.Join(args, " ")) 	// it takes some time to startup Winword.exe 	time.Sleep(5 * time.Second) 	stagedCommand := exec.Command(shell, shellParam, strings.Join(args, " ")) 	stagedCommand.Stdout = os.Stdout 	stagedCommand.Stderr = os.Stderr 	if err := stagedCommand.Run(); err != nil { 		var exitErr *exec.ExitError 		if errors.As(err, &exitErr) { 			os.Exit(exitErr.ExitCode()) 		} 		log.Fatal("Could not run staged command:", err) 	} } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go"
+"Jul 16, 2024 @ 18:19:22.339","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.323","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.293","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.987
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=10CD004B606D0C0F5903D86D8A2685D0FA0E583F,MD5=FDFCD4FCC7BCE6301300420BE9C611A3,SHA256=59AC771DCCC04D2A369267EC86CE12E71C781B6DF2FFE3394C5B3F7ADB7CB452,IMPHASH=00000000000000000000000000000000
+Contents: package main  import ( 	"errors" 	"log" 	"os" 	"os/exec" 	"strings" 	"time"  	"github.com/spf13/cobra" )  func init() { 	stageCmd := &cobra.Command{ 		Use:                "stage", 		Short:              "Run ransomware simulator via cmd /c", 		Run:                stage, 		DisableFlagParsing: true, 		Hidden:             true, 	} 	rootCmd.AddCommand(stageCmd) }  func stage(cmd *cobra.Command, args []string) { 	log.Printf("Executing command via shell: %s", strings.Join(args, " ")) 	// it takes some time to startup Winword.exe 	time.Sleep(5 * time.Second) 	stagedCommand := exec.Command(shell, shellParam, strings.Join(args, " ")) 	stagedCommand.Stdout = os.Stdout 	stagedCommand.Stderr = os.Stderr 	if err := stagedCommand.Run(); err != nil { 		var exitErr *exec.ExitError 		if errors.As(err, &exitErr) { 			os.Exit(exitErr.ExitCode()) 		} 		log.Fatal("Could not run staged command:", err) 	} } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go"
+"Jul 16, 2024 @ 18:19:22.245","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\stage.go
+CreationUtcTime: 2024-07-16 12:39:54.963
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\stage.go"
+"Jul 16, 2024 @ 18:19:22.214","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.200","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=EBA199326E285DD7106BB59FA3F44D9AD53C6EF3,MD5=9D4B5DA705E6FBADF7931DD35AF8B3EC,SHA256=1D123F6808D6A73ED954F02083ACE4A69C72A11229357EC71CC33AF57C33F852,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go"
+"Jul 16, 2024 @ 18:19:22.182","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.137","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:22.053","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=EBA199326E285DD7106BB59FA3F44D9AD53C6EF3,MD5=9D4B5DA705E6FBADF7931DD35AF8B3EC,SHA256=1D123F6808D6A73ED954F02083ACE4A69C72A11229357EC71CC33AF57C33F852,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go"
+"Jul 16, 2024 @ 18:19:22.013","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.963
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\simulation.go
+CreationUtcTime: 2024-07-16 12:39:54.963
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\simulation.go"
+"Jul 16, 2024 @ 18:19:21.997","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.988","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=279F1642EF006A17FEA19A90FF80BAA2360998AD,MD5=7A145225DD7A27CACCCE27E6298305A4,SHA256=A6C77924F0A0429ACD31D32741074453EA08697FB836A1387A3538EE4EECAF08,IMPHASH=00000000000000000000000000000000
+Contents: package main  import ( 	_ "embed" 	"fmt" 	"log" 	"os"  	"github.com/spf13/cobra" )  // rootCmd represents the base command when called without any subcommands var rootCmd = &cobra.Command{ 	Use:     "ransomware-simulator { run | cleanup }", 	Example: "ransomware-simulator run", 	Short:   "Ransomware Simulator", }  //go:embed ascii-art.txt var asciiArt string  func main() { 	rootCmd.CompletionOptions.DisableDefaultCmd = true 	if err := rootCmd.Execute(); err != nil { 		fmt.Println(asciiArt) 		log.Print(err) 		os.Exit(1) 	} } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go"
+"Jul 16, 2024 @ 18:19:21.953","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.932","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.914","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=279F1642EF006A17FEA19A90FF80BAA2360998AD,MD5=7A145225DD7A27CACCCE27E6298305A4,SHA256=A6C77924F0A0429ACD31D32741074453EA08697FB836A1387A3538EE4EECAF08,IMPHASH=00000000000000000000000000000000
+Contents: package main  import ( 	_ "embed" 	"fmt" 	"log" 	"os"  	"github.com/spf13/cobra" )  // rootCmd represents the base command when called without any subcommands var rootCmd = &cobra.Command{ 	Use:     "ransomware-simulator { run | cleanup }", 	Example: "ransomware-simulator run", 	Short:   "Ransomware Simulator", }  //go:embed ascii-art.txt var asciiArt string  func main() { 	rootCmd.CompletionOptions.DisableDefaultCmd = true 	if err := rootCmd.Execute(); err != nil { 		fmt.Println(asciiArt) 		log.Print(err) 		os.Exit(1) 	} } 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go"
+"Jul 16, 2024 @ 18:19:21.882","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\main.go
+CreationUtcTime: 2024-07-16 12:39:54.939
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\main.go"
+"Jul 16, 2024 @ 18:19:21.861","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.823","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=75F9802F70954C8684653E02E5A102BE08AA5FA5,MD5=0DD738C35F18767FAB8332155E1D7B8F,SHA256=B246E9CDFBFC2EEE41A02564E5222E3794FD2118C5396230911E99C68FC6CA58,IMPHASH=00000000000000000000000000000000
+Contents:     ____         _       __    ___              __    / __ \ __ __ (_)____ / /__ / _ ) __ __ ____ / /__   / /_/ // // // // __//  '_// _  |/ // // __//  '_/   \___\_\\_,_//_/ \__//_/\_\/____/ \_,_/ \__//_/\_\  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt"
+"Jul 16, 2024 @ 18:19:21.814","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.799","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.774","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.939
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=75F9802F70954C8684653E02E5A102BE08AA5FA5,MD5=0DD738C35F18767FAB8332155E1D7B8F,SHA256=B246E9CDFBFC2EEE41A02564E5222E3794FD2118C5396230911E99C68FC6CA58,IMPHASH=00000000000000000000000000000000
+Contents:     ____         _       __    ___              __    / __ \ __ __ (_)____ / /__ / _ ) __ __ ____ / /__   / /_/ // // // // __//  '_// _  |/ // // __//  '_/   \___\_\\_,_//_/ \__//_/\_\/____/ \_,_/ \__//_/\_\  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt"
+"Jul 16, 2024 @ 18:19:21.662","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.917
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd\ascii-art.txt
+CreationUtcTime: 2024-07-16 12:39:54.917
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd\\ascii-art.txt"
+"Jul 16, 2024 @ 18:19:21.652","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.917
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\cmd
+CreationUtcTime: 2024-07-16 12:39:54.917
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\cmd"
+"Jul 16, 2024 @ 18:19:21.632","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.917
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.623","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.917
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6684F54525CE28E668EE4B6328BC5AD4B28F78F6,MD5=C0369C7EBB0C160DD713F48D911807FD,SHA256=C0B4C0E9658669857053186567C80B3B23EA65715AF18FBA1A536F79DDBFD6DA,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum"
+"Jul 16, 2024 @ 18:19:21.570","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.893
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.555","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.893
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.538","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.893
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=6684F54525CE28E668EE4B6328BC5AD4B28F78F6,MD5=C0369C7EBB0C160DD713F48D911807FD,SHA256=C0B4C0E9658669857053186567C80B3B23EA65715AF18FBA1A536F79DDBFD6DA,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum"
+"Jul 16, 2024 @ 18:19:21.506","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.893
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.sum
+CreationUtcTime: 2024-07-16 12:39:54.893
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.sum"
+"Jul 16, 2024 @ 18:19:21.476","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.870
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.444","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.870
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=8E6D7EAA3A7B1A49D8DDA85D797E103A714EDF7D,MD5=ED379D6F00CDEDA3193FFC77AE57FD84,SHA256=9168D6B35C1824F8D9E8EAC57A641B7881746C10AEB031A6F9AF25A4E2F6600E,IMPHASH=00000000000000000000000000000000
+Contents: module github.com/NextronSystems/ransomware-simulator  go 1.17  require ( 	github.com/secDre4mer/go-parseflags v0.0.0-20220118160914-560fe4c9ea34 	github.com/spf13/cobra v1.4.0 )  require ( 	github.com/inconshreveable/mousetrap v1.0.0 // indirect 	github.com/spf13/pflag v1.0.5 // indirect ) 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod"
+"Jul 16, 2024 @ 18:19:21.397","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.870
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.350","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.870
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:21.314","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.870
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=8E6D7EAA3A7B1A49D8DDA85D797E103A714EDF7D,MD5=ED379D6F00CDEDA3193FFC77AE57FD84,SHA256=9168D6B35C1824F8D9E8EAC57A641B7881746C10AEB031A6F9AF25A4E2F6600E,IMPHASH=00000000000000000000000000000000
+Contents: module github.com/NextronSystems/ransomware-simulator  go 1.17  require ( 	github.com/secDre4mer/go-parseflags v0.0.0-20220118160914-560fe4c9ea34 	github.com/spf13/cobra v1.4.0 )  require ( 	github.com/inconshreveable/mousetrap v1.0.0 // indirect 	github.com/spf13/pflag v1.0.5 // indirect ) 
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod"
+"Jul 16, 2024 @ 18:19:21.070","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\go.mod
+CreationUtcTime: 2024-07-16 12:39:54.846
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\go.mod"
+"Jul 16, 2024 @ 18:19:21.022","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.976","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D77ADE99A2934AC051B9EBC3883E0BE2C8C52828,MD5=238AD3CFC571CF9AC9A386292B280716,SHA256=66674688958B96FDAF739CC2E49E0EBCB2B52787FAE3F7CB94A5F1A4C48B6083,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md"
+"Jul 16, 2024 @ 18:19:20.959","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.954","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.888","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D77ADE99A2934AC051B9EBC3883E0BE2C8C52828,MD5=238AD3CFC571CF9AC9A386292B280716,SHA256=66674688958B96FDAF739CC2E49E0EBCB2B52787FAE3F7CB94A5F1A4C48B6083,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md"
+"Jul 16, 2024 @ 18:19:20.671","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.846
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\README.md
+CreationUtcTime: 2024-07-16 12:39:54.846
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\README.md"
+"Jul 16, 2024 @ 18:19:20.651","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.628","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=17E9BD2BDD0F5C65DCD49A18EC7D54332E0511B5,MD5=3CC1C222C683889F755871A1E97ABC47,SHA256=CCB82F71F8E1822088C44B83F331F7A577054E88B621EEA631E939CDB9583F98,IMPHASH=00000000000000000000000000000000
+Contents: quickbuck.exe: $(wildcard cmd/* lib/*/*) quickbuck.exe: export GOOS=windows quickbuck.exe: export GOARCH=amd64  quickbuck.exe: 	go build -o $@ ./cmd  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile"
+"Jul 16, 2024 @ 18:19:20.519","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.501","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.461","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=17E9BD2BDD0F5C65DCD49A18EC7D54332E0511B5,MD5=3CC1C222C683889F755871A1E97ABC47,SHA256=CCB82F71F8E1822088C44B83F331F7A577054E88B621EEA631E939CDB9583F98,IMPHASH=00000000000000000000000000000000
+Contents: quickbuck.exe: $(wildcard cmd/* lib/*/*) quickbuck.exe: export GOOS=windows quickbuck.exe: export GOARCH=amd64  quickbuck.exe: 	go build -o $@ ./cmd  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile"
+"Jul 16, 2024 @ 18:19:20.413","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\Makefile
+CreationUtcTime: 2024-07-16 12:39:54.822
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\Makefile"
+"Jul 16, 2024 @ 18:19:20.400","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=E93D1A434B59A42820732197B71B86D06DFCC038,MD5=945082ECF1E638025DA201AD4A68A73A,SHA256=BDD25DDAD86AE69B59E5B113DCAAE19D4FEFE3C65E9F56276F869E0A05D0D349,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.386","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=2A9529E6F757B0348296D21F2DF28CF30D32BED1,MD5=1A133AC7AD1266D64EBA2AB26024DC96,SHA256=EDC5DE8C16FB057B8BF066D415E741BA7D18F8C083F9BE68F4D9FF1706662328,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE"
+"Jul 16, 2024 @ 18:19:20.356","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.328","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE:Zone.Identifier
+CreationUtcTime: 2022-05-15 21:35:36.000
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:20.251","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.822
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE
+CreationUtcTime: 2022-05-15 21:35:36.000
+Hash: SHA1=2A9529E6F757B0348296D21F2DF28CF30D32BED1,MD5=1A133AC7AD1266D64EBA2AB26024DC96,SHA256=EDC5DE8C16FB057B8BF066D415E741BA7D18F8C083F9BE68F4D9FF1706662328,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE"
+"Jul 16, 2024 @ 18:19:20.171","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.798
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3\LICENSE
+CreationUtcTime: 2024-07-16 12:39:54.798
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3\\LICENSE"
+"Jul 16, 2024 @ 18:19:20.151","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.790
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3\ransomware-simulator-1.0.3
+CreationUtcTime: 2024-07-16 12:39:54.788
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3\\ransomware-simulator-1.0.3"
+"Jul 16, 2024 @ 18:19:20.132","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:54.746
+ProcessGuid: {e2220e9d-6760-6696-8000-000000002600}
+ProcessId: 4424
+Image: C:\Windows\Explorer.EXE
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3
+CreationUtcTime: 2024-07-16 12:39:54.746
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3"
+"Jul 16, 2024 @ 18:19:10.050","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:40.519
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=F4EEE53101EFB01080D9613A01A7DE4A74E8D2E3,MD5=1D6B4989E0A541B7CE948FAECF7E08F6,SHA256=7E28C0EE6825782040F288296D0E994897F3BBAC718CE4D3B84DA9E3692A693A,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip"
+"Jul 16, 2024 @ 18:19:10.050","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:40.661
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip:Zone.Identifier
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=C61B9A7E1AAFD371674CF60B314F4ACE9C753B69,MD5=B3916BFD688478E4E4307FC035063ACE,SHA256=2F6E23259BFCC4D4E546D16CC5BAA73FED6F0FE4728D020C8CD79D31A4D91901,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://github.com/NextronSystems/ransomware-simulator/releases  HostUrl=https://codeload.github.com/NextronSystems/ransomware-simulator/zip/refs/tags/1.0.3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:10.039","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:40.519
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip:Zone.Identifier
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=33FC118061A2B5F3EBC054E6EAC9304FFB77E83E,MD5=AC1CE1C48F53309E6B365689A03C50FA,SHA256=AEB7BB47D4E151E66B7433507A542FF25D5E14D4EAF339B20E8A91967ABB5D0C,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://github.com/NextronSystems/ransomware-simulator/releases  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:10.023","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:40.509
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=F4EEE53101EFB01080D9613A01A7DE4A74E8D2E3,MD5=1D6B4989E0A541B7CE948FAECF7E08F6,SHA256=7E28C0EE6825782040F288296D0E994897F3BBAC718CE4D3B84DA9E3692A693A,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip"
+"Jul 16, 2024 @ 18:19:10.023","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: technique_id=T1189,technique_name=Drive-by Compromise
+UtcTime: 2024-07-16 12:39:40.502
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip:Zone.Identifier
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=D59FC84CDD5217C6CF74785703655F78DA6B582B,MD5=FBCCF14D504B7B2DBCB5A5BDA75BD93B,SHA256=EACD09517CE90D34BA562171D15AC40D302F0E691B439F91BE1B6406E25F5913,IMPHASH=00000000000000000000000000000000
+Contents: [ZoneTransfer]  ZoneId=3  
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:10.004","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 11: FileCreate.",""File created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:40.451
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip:Zone.Identifier
+CreationUtcTime: 2024-07-16 12:39:38.544
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip:Zone.Identifier"
+"Jul 16, 2024 @ 18:19:10.000","Windows-10-Home-Edition-Vulnerable-OS","Sysmon - Event 15: FileCreateStreamHash.",""File stream created:
+RuleName: -
+UtcTime: 2024-07-16 12:39:40.448
+ProcessGuid: {e2220e9d-6a0b-6696-1f02-000000002600}
+ProcessId: 6940
+Image: C:\Users\compromised-windows\AppData\Local\Google\Chrome\Application\chrome.exe
+TargetFilename: C:\Users\compromised-windows\Downloads\ransomware-simulator-1.0.3.zip
+CreationUtcTime: 2024-07-16 12:39:38.544
+Hash: SHA1=F4EEE53101EFB01080D9613A01A7DE4A74E8D2E3,MD5=1D6B4989E0A541B7CE948FAECF7E08F6,SHA256=7E28C0EE6825782040F288296D0E994897F3BBAC718CE4D3B84DA9E3692A693A,IMPHASH=00000000000000000000000000000000
+Contents: -
+User: WINDOWS-11-VULN\compromised-windows"","C:\\Users\\compromised-windows\\Downloads\\ransomware-simulator-1.0.3.zip"
